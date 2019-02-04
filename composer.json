@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {"App\\": "app/classes/"}
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.2"
+  },
+  "require": {
+    "monolog/monolog": "1.0.*"
+  }
+}
