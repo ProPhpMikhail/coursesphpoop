@@ -1,11 +1,5 @@
 <?php
 
-require __DIR__ . '/init.php';
-use App\Settings\Log;
-require 'procabstract.php';
-
-
-
 
 $user = [
     'name' => 'Misha',

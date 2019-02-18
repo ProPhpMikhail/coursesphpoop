@@ -4,7 +4,7 @@ namespace App\Helpers;
 
 class Settings
 {
-    public static function hello()
+    public function hello()
     {
         return 'hello!';
     }
