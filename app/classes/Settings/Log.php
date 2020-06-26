@@ -42,7 +42,6 @@ class Log
 
     public static function getLogger(string $name = 'default'): Logger
     {
-        dump($_SERVER['DOCUMENT_ROOT']);
         $obj = self::getInstance();
         if (!isset($obj->loggers[$name])) {
             throw new \Exception('Logger name ' . $name . ' isn\'t exist');
